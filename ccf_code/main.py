@@ -1099,7 +1099,7 @@ def merge(trainData2,trainData3,trainData4,trainData5,trainData6):#,label2,label
     for line in trainData6:
         trainData.append(line)
     return trainData#,label
-    
+#合并测试数据    
 def mergetest(testData_off,testData_online,trainData_off,trainData_online):
     testData=[];trainData = []
     for line in testData_off:
